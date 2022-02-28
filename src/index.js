@@ -11,6 +11,7 @@ document.getElementById("app").innerHTML = `
 let dragon = {
   name: "thi",
   fire: true,
+  subname: "fireeeee",
   fight() {
     return 5;
   }
@@ -25,4 +26,4 @@ let lizard = {
 };
 lizard.__proto__ = dragon;
 
-console.log(lizard.name);
+console.log(lizard.subname);
